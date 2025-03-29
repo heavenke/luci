@@ -1,0 +1,305 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-01-17 09:01+0000\n"
+"Last-Translator: Максим Горпиніч <maksimgorpinic2005a@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/openwrt/"
+"luciapplicationshttps-dns-proxy/uk/>\n"
+"Language: uk\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.10-dev\n"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:269
+msgid "%s%s%s proxy at %s on port %s.%s"
+msgstr "%s%s%s проксі у %s на порту %s.%s"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:261
+msgid "%s%s%s proxy on port %s.%s"
+msgstr "%s%s%s проксі на порті %s.%s"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:148
+msgid ""
+"Blocks access to Mozilla Encrypted resolvers, forcing local devices to use "
+"router for DNS resolution (%smore information%s)."
+msgstr ""
+"Блокує доступ до зашифрованих резолверів Mozilla, змушуючи локальні пристрої "
+"використовувати маршрутизатор для вирішення DNS (%sдокладніше%s)."
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:132
+msgid ""
+"Blocks access to iCloud Private Relay resolvers, forcing local devices to "
+"use router for DNS resolution (%smore information%s)."
+msgstr ""
+"Блокує доступ до резолверів iCloud Private Relay, змушуючи локальні пристрої "
+"використовувати маршрутизатор для вирішення DNS (%sбільше інформації%s)."
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:328
+msgid "Bootstrap DNS"
+msgstr "Завантажувальний DNS"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:146
+msgid "Canary Domains Mozilla"
+msgstr "Canary Domains Mozilla"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:130
+msgid "Canary Domains iCloud"
+msgstr "Домени Canary iCloud"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:355
+msgid "DSCP Codepoint"
+msgstr "Кодова точка DSCP"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:387
+msgid "Disable"
+msgstr "Вимкнути"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:381
+msgid "Disabling %s service"
+msgstr "Вимкнення служби %s"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:67
+msgid "Do not update configs"
+msgstr "Не оновлювати конфігурації"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:368
+msgid "Enable"
+msgstr "Увімкнути"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:362
+msgid "Enabling %s service"
+msgstr "Увімкнення служби %s"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/status/include/71_https-dns-proxy.js:58
+msgid "Force DNS Ports"
+msgstr "Примусове використання портів DNS"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:182
+msgid "Force DNS ports:"
+msgstr "Примусове використання DNS-портів:"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:115
+msgid "Force Router DNS"
+msgstr "Примусове використання DNS маршрутизатора"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:124
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:139
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:158
+msgid "Force Router DNS server to all local devices"
+msgstr "Ввімкнути DNS-сервер маршрутизатора на всіх локальних пристроях"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:388
+msgid "Force use of HTTP/1"
+msgstr "Примусове використання HTTP/1"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:400
+msgid "Force use of IPv6 DNS resolvers"
+msgstr "Примусове використання DNS-перетворювачів IPv6"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:117
+msgid ""
+"Forces Router DNS use on local devices, also known as DNS Hijacking. Only "
+"works on `lan` interface by default (%smore information%s)."
+msgstr ""
+"Примусове використання DNS маршрутизатора на локальних пристроях, також "
+"відоме як викрадення DNS. За замовчуванням працює лише в інтерфейсі `lan` "
+"(%sбільше інформації%s)."
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/rpcd/acl.d/luci-app-https-dns-proxy.json:3
+msgid "Grant UCI and file access for luci-app-https-dns-proxy"
+msgstr "Надати luci-app-https-dns-proxy доступ до UCI та файлів"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/luci/menu.d/luci-app-https-dns-proxy.json:3
+msgid "HTTPS DNS Proxy"
+msgstr "HTTPS DNS-проксі"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:48
+msgid "HTTPS DNS Proxy - Configuration"
+msgstr "HTTPS DNS Proxy - Конфігурація"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:185
+msgid "HTTPS DNS Proxy - Instances"
+msgstr "HTTPS DNS Proxy - екземпляри"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:172
+msgid "HTTPS DNS Proxy - Status"
+msgstr "HTTPS DNS-проксі – статус"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/status/include/71_https-dns-proxy.js:11
+msgid "HTTPS DNS Proxy Instances"
+msgstr "Екземпляри проксі HTTPS DNS"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:57
+msgid ""
+"If update option is selected, the %s'DNS Forwards' section of DHCP and DNS%s "
+"will be automatically updated to use selected DoH providers (%smore "
+"information%s)."
+msgstr ""
+"Якщо вибрано параметр оновлення, розділ %s'DNS Forwards' DHCP і DNS%s буде "
+"автоматично оновлено для використання вибраних постачальників DoH (%sбільше "
+"інформації%s)."
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:157
+msgid "Let local devices use Mozilla Private Relay"
+msgstr "Дозвольте локальним пристроям використовувати Mozilla Private Relay"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:138
+msgid "Let local devices use iCloud Private Relay"
+msgstr "Дозвольте локальним пристроям використовувати iCloud Private Relay"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:123
+msgid "Let local devices use their own DNS servers if set"
+msgstr ""
+"Дозволити локальним пристроям використовувати власні DNS-сервери, якщо вони "
+"встановлені"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:333
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/status/include/71_https-dns-proxy.js:56
+msgid "Listen Address"
+msgstr "Адреса для прослуховування"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:339
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/status/include/71_https-dns-proxy.js:57
+msgid "Listen Port"
+msgstr "Порт для прослуховування"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:367
+msgid "Logging File Path"
+msgstr "Шлях до файлу журналу"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:361
+msgid "Logging Verbosity"
+msgstr "Багатослівність журналювання"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/status/include/71_https-dns-proxy.js:55
+msgid "Name / Type"
+msgstr "Назва / Тип"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:198
+msgid "Not installed or not found"
+msgstr "Не встановлено або не знайдено"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:261
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:293
+msgid "Parameter"
+msgstr "Параметр"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:166
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:175
+msgid ""
+"Please note that %s is not supported on this system (%smore information%s)."
+msgstr ""
+"Зауважте, що %s не підтримується цією системою (%sдодаткова інформація%s)."
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:372
+msgid "Polling Interval"
+msgstr "Інтервал опитування"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:227
+msgid "Provider"
+msgstr "Провайдер"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:378
+msgid "Proxy Server"
+msgstr "Проксі сервер"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:330
+msgid "Restart"
+msgstr "Перезапустити"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:324
+msgid "Restarting %s service"
+msgstr "Перезапуск служби %s"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:350
+msgid "Run As Group"
+msgstr "Запуск від імені групи"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:345
+msgid "Run As User"
+msgstr "Запуск від імені користувача"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:214
+msgid "See the %sREADME%s for details."
+msgstr "Перегляньте %sREADME%s для деталей."
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:93
+msgid "Select the DNSMASQ Configs to update"
+msgstr "Виберіть конфігурації DNSMASQ для оновлення"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:413
+msgid "Service Control"
+msgstr "Керування службою"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:212
+msgid "Service Instances"
+msgstr "Сервісні екземпляри"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:176
+msgid "Service Status"
+msgstr "Стан служби"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:311
+msgid "Start"
+msgstr "Запустити"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:305
+msgid "Starting %s service"
+msgstr "Запуск служби %s"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:349
+msgid "Stop"
+msgstr "Зупинити"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:343
+msgid "Stopping %s service"
+msgstr "Зупинка служби %s"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/status/include/71_https-dns-proxy.js:105
+msgid "There are no active instances."
+msgstr "Немає активних екземплярів."
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:223
+msgid "Unknown"
+msgstr "Невідомо"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:55
+msgid "Update DNSMASQ Config on Start/Stop"
+msgstr "Оновлення конфігурації DNSMASQ при запуску/зупинці"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:65
+msgid "Update all configs"
+msgstr "Оновлення всіх налаштувань"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:66
+msgid "Update select configs"
+msgstr "Оновити вибрані конфігурації"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:383
+msgid "Use HTTP/1"
+msgstr "Використовуйте HTTP/1"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:394
+msgid "Use IPv6 resolvers"
+msgstr "Використовуйте резолвери IPv6"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:399
+msgid "Use any family DNS resolvers"
+msgstr "Використовуйте будь-який сімейний DNS-перетворювач"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:387
+msgid "Use negotiated HTTP version"
+msgstr "Використовуйте узгоджену версію HTTP"
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:180
+msgid "Version %s - Running."
+msgstr "Версія %s - працює."
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:192
+msgid "Version %s - Stopped (Disabled)."
+msgstr "Версія %s – зупинено (вимкнено)."
+
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:190
+msgid "Version %s - Stopped."
+msgstr "Версія %s - Зупинено."
