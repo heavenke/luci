@@ -3,9 +3,9 @@ local utl = require "luci.util"
 
 function index()
 
-	entry({"admin", "about"}, call("about_index"), _("About"), 99)
+	entry({"admin", "about"}, call("about_page"), _("About"), 99)
 end
 
-function about_index()
-    luci.template.render("about/index")
+function about_page()
+    luci.template.render("about/about")
 end
