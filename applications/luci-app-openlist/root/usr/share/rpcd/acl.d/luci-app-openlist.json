@@ -3,8 +3,7 @@
 		"description": "Grant UCI access for luci-app-openlist",
 		"read": {
 			"file": {
-				"/usr/bin/openlist": [ "exec" ],
-				"/*": [ "read" ]
+				"/var/run/openlist/log/openlist.log": [ "read" ]
 			},
 			"ubus": {
 				"service": [ "list" ]
@@ -12,9 +11,6 @@
 			"uci": [ "openlist" ]
 		},
 		"write": {
-			"file": {
-				"/*": [ "write" ]
-			},
 			"uci": [ "openlist" ]
 		}
 	}

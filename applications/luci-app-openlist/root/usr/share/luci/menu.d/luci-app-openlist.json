@@ -9,20 +9,20 @@
 			"uci": { "openlist": true }
 		}
 	},
-	"admin/services/openlist/basic": {
-		"title": "Setting",
+	"admin/services/openlist/config": {
+		"title": "Settings",
 		"order": 10,
 		"action": {
 			"type": "view",
-			"path": "openlist/basic"
+			"path": "openlist/config"
 		}
 	},
-	"admin/services/openlist/logs": {
-		"title": "Logs",
+	"admin/services/openlist/log": {
+		"title": "Log",
 		"order": 20,
 		"action": {
 			"type": "view",
-			"path": "openlist/logs"
+			"path": "openlist/log"
 		}
 	}
 }
